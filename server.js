@@ -61,7 +61,7 @@ app.use('/api', cliente);
 app.use('/api', producto);
 app.use('/api', precios);
 
-app.listen(3000, () =>{
+app.listen(process.env.PORT || 3000, () =>{
     console.log('server running in port 3000');
 });
 
