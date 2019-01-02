@@ -1,7 +1,5 @@
 const mongoose = require('mongoose');
 
-
-
 const precioClienteSchema = mongoose.Schema({
     PRC_RUTA_CLIE: {type: Number},
     PRC_CLIENTE: {type: Number},
@@ -18,4 +16,4 @@ const precioClienteSchema = mongoose.Schema({
 
 });
 
-module.exports = mongoose.model('TB_HH_PRECIO_CLIENTE', precioClienteSchema);
+module.exports = mongoose.model('tb_hh_precio_cliente', precioClienteSchema);
