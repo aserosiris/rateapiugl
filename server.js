@@ -53,7 +53,7 @@ const company = require('./routes/companyRoute.js');
 const cliente = require('./routes/clientesRoute.js');
 const producto = require('./routes/Tb_hh_ProductosRoute.js');
 const precios = require('./routes/Tb_hh_PreciosRoute.js');
-const precioCliente = require('./routes/Tb_hh_Precio_ClienteRoute.js')
+const precioCliente = require('./routes/Tb_hh_Precio_ClienteRoute.js');
 
 
 app.use('/api', user);
