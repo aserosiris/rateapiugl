@@ -10,11 +10,11 @@ exports.getAllPrecioClientes = async (req, res) => {
 
     const results = await PrecioCliente.find(
         { 
-                "PRC_RUTA_CLIE" : Number(50)
+               // "PRC_RUTA_CLIE" : Number(50)
             
-        })
+        });
     
-        return res.status(200).json({result:results})
+        return res.status(200).json({result:results});
 }
 
 
