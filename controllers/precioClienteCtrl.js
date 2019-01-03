@@ -3,7 +3,7 @@ const PrecioCliente = require('../models/TB_HH_PRECIO_CLIENTE');
 
 
 
-exports.getAllPrecioClientes = async (req, res) => {
+exports.getAllPrecioClientes = async (req, res, next) => {
 //const results = await PrecioCliente.find({});
 //const results = await ('tb_hh_precio_cliente').find({});
 
@@ -11,7 +11,7 @@ exports.getAllPrecioClientes = async (req, res) => {
 
     const results = await PrecioCliente.find(
         { 
-                "PRC_RUTA_CLIE" : Number(50)
+                "PRC_RUTA_CLIE" : req.body.PRC_RUTA_CLIE
             
         });
     
