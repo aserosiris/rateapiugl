@@ -10,7 +10,7 @@ exports.getAllPrecioClientes = async (req, res) => {
 
     const results = await Precio.find(
         { 
-                "PRC_RUTA_CLIE" : Number(11)
+                "PRC_RUTA_CLIE" : Number(50)
             
         })
     
