@@ -14,6 +14,7 @@ const app = express();
 mongoose.Promise = global.Promise;
 
 mongoose.connect(process.env.MONGODB);
+//mongoose.connect('mongodb://localhost/rateapp');
 
 app.use(helmet());
 app.use(compression());

@@ -16,4 +16,4 @@ const precioClienteSchema = mongoose.Schema({
 
 });
 
-module.exports = mongoose.model('TB_HH_PRECIO_CLIENTE', precioClienteSchema);
+module.exports = mongoose.model('tb_hh_precio_cliente', precioClienteSchema);
