@@ -1,6 +1,6 @@
 const User = require('../models/user');
 const Cliente = require('../models/clientes');
-
+/*
 exports.createCliente = async (req, res) => {
     if(req.body.num_cliente === undefined || req.body.nombre_negocio === undefined || req.body.razon_social === undefined
         || req.body.corporacion === undefined || req.body.colonia_negocio === undefined || req.body.direccion === undefined){
@@ -38,6 +38,7 @@ exports.createCliente = async (req, res) => {
 
     return res.status(200).json({message: 'Company created Successfully'});
 }
+*/
 
 exports.getAllClientes = async (req, res) => {
     const results = await Cliente.find({});
