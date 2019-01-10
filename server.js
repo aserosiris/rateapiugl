@@ -56,7 +56,8 @@ const producto = require('./routes/Tb_hh_ProductosRoute.js');
 const precios = require('./routes/Tb_hh_PreciosRoute.js');
 const precioCliente = require('./routes/Tb_hh_Precio_ClienteRoute.js');
 const rutas = require('./routes/Tb_hh_rutaRoute.js');
-const tb_hh_usuarios = require('./routes/tb_hh_usuariosRoute.js')
+const tb_hh_usuarios = require('./routes/tb_hh_usuariosRoute.js');
+const tb_hh_revolventes = require('./routes/tb_hh_revolventesRoute.js')
 
 app.use('/api', user);
 app.use('/api', company);
@@ -66,6 +67,7 @@ app.use('/api', precios);
 app.use('/api', precioCliente);
 app.use('/api', rutas);
 app.use('/api', tb_hh_usuarios);
+app.use('/api', tb_hh_revolventes);
 
 app.listen(process.env.PORT || 3000, () =>{
     console.log('server running in port 3000');
