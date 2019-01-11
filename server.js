@@ -58,7 +58,7 @@ const precioCliente = require('./routes/Tb_hh_Precio_ClienteRoute.js');
 const rutas = require('./routes/Tb_hh_rutaRoute.js');
 const tb_hh_usuarios = require('./routes/tb_hh_usuariosRoute.js');
 const tb_hh_revolventes = require('./routes/tb_hh_revolventesRoute.js');
-const tb_hh_promos = require('./routes/tb_hh_promosRoute.js')
+const tb_hh_promos = require('./routes/tb_hh_promosRoutes.js')
 
 app.use('/api', user);
 app.use('/api', company);
