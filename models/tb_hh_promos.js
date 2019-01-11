@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const c = mongoose.Schema({
+const promosSchema = mongoose.Schema({
     PM_CLAVE_PROMO: {type: Number},
     PM_CLAVE_PRODUCTO: {type: Number},
     PM_CANTIDAD: {type: Number},
