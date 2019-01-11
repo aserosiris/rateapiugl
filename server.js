@@ -60,7 +60,7 @@ const tb_hh_usuarios = require('./routes/tb_hh_usuariosRoute.js');
 const tb_hh_revolventes = require('./routes/tb_hh_revolventesRoute.js');
 const tb_hh_promos = require('./routes/tb_hh_promosRoutes.js');
 const tb_hh_carga_iniciales = require('./routes/tb_hh_carga_inicialesRoute.js')
-const tb_hh_arreglos = require('./routes/tb_hh_arreglosRoute.js')
+const tb_hh_arreglos = require('./routes/tb_hh_arreglosRoutes.js')
 
 app.use('/api', user);
 app.use('/api', company);
