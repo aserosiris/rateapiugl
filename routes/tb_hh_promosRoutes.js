@@ -4,6 +4,6 @@ const tb_hh_promosCtrl = require('../controllers/tb_hh_promosCtrl');
 
 
 
-router.get('/rutas/all', tb_hh_promosCtrl.getAllPromos);
+router.get('/promos/all', tb_hh_promosCtrl.getAllPromos);
 
 module.exports = router;
