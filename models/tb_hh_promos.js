@@ -10,4 +10,4 @@ const promosSchema = mongoose.Schema({
     PM_EMPRESA: {type: Number}
 });
 
-module.exports = mongoose.model('TB_HH_PRECIOSTB_HH_PROMOS', promosSchema);
+module.exports = mongoose.model('TB_HH_PROMOS', promosSchema);
