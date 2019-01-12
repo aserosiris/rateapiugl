@@ -1,5 +1,5 @@
 const User = require('../models/user');
-const carga_inicial = require('../models/tb_hh_ruta');
+const carga_inicial = require('../models/tb_hh_carga_inicial');
 
 
 
