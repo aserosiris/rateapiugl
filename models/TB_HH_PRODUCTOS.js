@@ -8,7 +8,8 @@ const productoSchema = mongoose.Schema({
     PD_CANTXCAJA: {type: Number, default: ''},
     PD_BAJA: {type: String, default: ''},
     PD_SUCURSAL: {type: Number, default: ''},
-    PD_EMPRESA: {type:Number, default: ''}
+    PD_EMPRESA: {type:Number, default: ''},
+    UM_CANTIDAD: {type: Number, default: ''}
 });
 
 module.exports = mongoose.model('TB_HH_PRODUCTO', productoSchema);
