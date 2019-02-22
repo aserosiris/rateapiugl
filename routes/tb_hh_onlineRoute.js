@@ -4,7 +4,7 @@ const tb_hh_onlineCtrl = require('../controllers/tb_hh_onlineCtrl');
 
 
 
-router.get('/pedidos/all', tb_hh_onlineCtrl.getStatus);
+router.get('/online/all', tb_hh_onlineCtrl.getStatus);
 
 
 
