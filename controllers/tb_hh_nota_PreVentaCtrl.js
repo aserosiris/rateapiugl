@@ -1,5 +1,5 @@
 const User = require('../models/user');
-const notaPreVentas = require('../models/tb_hh_nota_PreVenta');
+const notaPreVentas = require('../models/tb_hh_nota_PreVentas');
 
 exports.createNotaVenta = async (req, res) => {
     const newNotaVenta = new notaVentas();
