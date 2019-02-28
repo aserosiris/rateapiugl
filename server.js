@@ -66,6 +66,8 @@ const tb_hh_detalle_notas = require('./routes/tb_hh_detalle_notaRoutes.js')
 const tb_hh_asistencias = require('./routes/tb_hh_asistenciasRoutes.js')
 const tb_hh_pedidos = require('./routes/tb_hh_pedidosRoute.js')
 const tb_hh_online = require('./routes/tb_hh_onlineRoute.js')
+const tb_hh_nota_PreVenta = require('./routes/tb_hh_nota_PreVentaRoute.js')
+const tb_hh_nota_PreVentaDetalle = require('./routes/tb_hh_nota_PreVentaDetalleRoute.js')
 
 app.use('/api', user);
 app.use('/api', company);
@@ -84,6 +86,8 @@ app.use('/api', tb_hh_detalle_notas);
 app.use('/api', tb_hh_asistencias);
 app.use('/api', tb_hh_pedidos);
 app.use('/api', tb_hh_online);
+app.use('/api', tb_hh_nota_PreVenta);
+app.use('/api', tb_hh_nota_PreVentaDetalle);
 
 app.listen(process.env.PORT || 3000, () =>{
     console.log('server running in port 3000');
