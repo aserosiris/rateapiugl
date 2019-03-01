@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const notaVentaCtrl = require('../controllers/tb_hh_nota_PreVentaCtrl');
+const notaVentaCtrl = require('../controllers/tb_hh_nota_VentaPreCtrl');
 
 
 

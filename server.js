@@ -66,8 +66,8 @@ const tb_hh_detalle_notas = require('./routes/tb_hh_detalle_notaRoutes.js')
 const tb_hh_asistencias = require('./routes/tb_hh_asistenciasRoutes.js')
 const tb_hh_pedidos = require('./routes/tb_hh_pedidosRoute.js')
 const tb_hh_online = require('./routes/tb_hh_onlineRoute.js')
-const tb_hh_nota_PreVenta = require('./routes/tb_hh_nota_PreVentaRoute.js')
-const tb_hh_nota_PreVentaDetalle = require('./routes/tb_hh_nota_PreVentaDetalleRoute.js')
+const tb_hh_nota_PreVenta = require('./routes/tb_hh_nota_VentaPreRoute.js')
+const tb_hh_nota_PreVentaDetalle = require('./routes/tb_hh_nota_DetallePreRoute.js')
 
 app.use('/api', user);
 app.use('/api', company);
