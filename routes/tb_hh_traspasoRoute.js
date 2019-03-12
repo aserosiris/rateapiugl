@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const tb_hh_pedidosCtrl = require('../controllers/tb_hh_traspasoCtrl');
+const tb_hh_traspasoCtrl = require('../controllers/tb_hh_traspasoCtrl');
 
 
 
