@@ -10,4 +10,4 @@ const traspasoSchema = mongoose.Schema({
     TR_ESTATUS:{type: String}
 });
 
-module.exports = mongoose.model('tb_hh_traspasos', pedidoSchema);
+module.exports = mongoose.model('tb_hh_traspasos', traspasoSchema);
